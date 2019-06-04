@@ -125,7 +125,7 @@ module Fx
       #
       # @return [void]
       def drop_function(name)
-        execute "DROP FUNCTION #{name}();"
+        execute "DROP FUNCTION #{name};"
       end
 
       # Drops the trigger from the database
